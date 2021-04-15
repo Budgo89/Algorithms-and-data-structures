@@ -84,18 +84,19 @@ namespace Algorithms_and_data_structures
         }
         static bool Algorithms(int n)
         {
-            int d = 0;
-            int i = 2;
-            while (i < n)
+            int d = 0; // O(1)
+            int i = 2; // O(1)
+            while (i < n) //O(N)
             {
-                if (n % i == 0)
-                    d++;
-                i++;
+                if (n % i == 0) // O(1)
+                    d++; 
+                i++; 
             }
 
-            if (d == 0)
-                return true;
-            return false;
+            if (d == 0) // O(1)
+                return true; 
+            return false; 
+            // Общая сложность O(N)
         }
         
         public static int  StrangeSum(int[] inputArray)
@@ -116,6 +117,7 @@ namespace Algorithms_and_data_structures
                         sum += inputArray[i] + i + k + j + y; // O(1)
                     }
                 }
+                /* 1 + N*N*3N = 1+3N^3 = Сокращаем константы = N^3  */
             }
 
             return sum; // O(1)

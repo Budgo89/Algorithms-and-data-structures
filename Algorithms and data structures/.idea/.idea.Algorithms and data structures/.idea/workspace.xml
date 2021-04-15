@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92959b6-9d78-42ee-8c04-84e1144a682c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/Algorithms and data structures.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/bin/Debug/net5.0/ref/Algorithms and data structures.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/ref/Algorithms and data structures.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Algorithms and data structures/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Algorithms and data structures/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms and data structures/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms and data structures/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms and data structures/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms and data structures/obj/Debug/net5.0/Algorithms and data structures.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +64,7 @@
       <workItem from="1618393494946" duration="5886000" />
       <workItem from="1618399851027" duration="2728000" />
       <workItem from="1618403415735" duration="12000" />
+      <workItem from="1618485411903" duration="358000" />
     </task>
     <servers />
   </component>
