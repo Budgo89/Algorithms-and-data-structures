@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms and data structures", "Algorithms and data structures\Algorithms and data structures.csproj", "{CD89AB70-C073-4C83-B199-3C69019391F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_1", "Lesson_1\Lesson_1.csproj", "{F376C8E1-AEF1-4624-A78A-B1E0C9D99244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_1", "Lesson_1\Lesson_1.csproj", "{F376C8E1-AEF1-4624-A78A-B1E0C9D99244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2", "Lesson2\Lesson2.csproj", "{FADA6D2B-2D9F-4740-A16A-21B6CE7BD05C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F376C8E1-AEF1-4624-A78A-B1E0C9D99244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F376C8E1-AEF1-4624-A78A-B1E0C9D99244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F376C8E1-AEF1-4624-A78A-B1E0C9D99244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADA6D2B-2D9F-4740-A16A-21B6CE7BD05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADA6D2B-2D9F-4740-A16A-21B6CE7BD05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADA6D2B-2D9F-4740-A16A-21B6CE7BD05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADA6D2B-2D9F-4740-A16A-21B6CE7BD05C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
