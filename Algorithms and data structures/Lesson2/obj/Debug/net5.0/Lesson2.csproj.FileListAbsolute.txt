@@ -1,0 +1,16 @@
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.exe
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.deps.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.runtimeconfig.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.runtimeconfig.dev.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\ref\Lesson2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\bin\Debug\net5.0\Lesson2.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.csprojAssemblyReference.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.AssemblyInfoInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.AssemblyInfo.cs
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.csproj.CoreCompileInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\ref\Lesson2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson2\obj\Debug\net5.0\Lesson2.genruntimeconfig.cache
