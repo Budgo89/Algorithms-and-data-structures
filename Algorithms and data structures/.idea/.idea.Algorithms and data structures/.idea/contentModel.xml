@@ -17,6 +17,32 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="Algorithms and data structures.sln" t="IncludeFlat" />
+      <e p="Lesson2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ILinkedList.cs" t="Include" />
+        <e p="Lesson2.csproj" t="IncludeRecursive" />
+        <e p="LinkedList.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Lesson2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Lesson_1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Lesson_1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Lesson_1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
