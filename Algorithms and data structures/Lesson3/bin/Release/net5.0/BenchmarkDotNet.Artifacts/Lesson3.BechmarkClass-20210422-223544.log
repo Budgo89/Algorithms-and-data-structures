@@ -1,0 +1,371 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430
+// command took 1,22s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430
+// command took 2,36s and exited with 0
+// ***** Done, took 00:00:03 (3.7 sec)   *****
+// Found 4 benchmarks:
+//   BechmarkClass.TestPointDistanceClass: DefaultJob
+//   BechmarkClass.PointDistanceTect: DefaultJob
+//   BechmarkClass.PointDistanceDoubleTect: DefaultJob
+//   BechmarkClass.PointDistanceShortTect: DefaultJob
+
+// **************************
+// Benchmark: BechmarkClass.TestPointDistanceClass: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "143c9fda-264e-466e-85a9-2541291d7430.dll" --benchmarkName "Lesson3.BechmarkClass.TestPointDistanceClass" --job "Default" --benchmarkId 0 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430\bin\Release\netcoreapp5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 197900.00 ns, 197.9000 us/op
+WorkloadJitting  1: 1 op, 2050446900.00 ns, 2.0504 s/op
+
+WorkloadWarmup   1: 1 op, 2025791700.00 ns, 2.0258 s/op
+WorkloadWarmup   2: 1 op, 2026737900.00 ns, 2.0267 s/op
+WorkloadWarmup   3: 1 op, 2031208100.00 ns, 2.0312 s/op
+WorkloadWarmup   4: 1 op, 2034044900.00 ns, 2.0340 s/op
+WorkloadWarmup   5: 1 op, 2028654600.00 ns, 2.0287 s/op
+WorkloadWarmup   6: 1 op, 2024619700.00 ns, 2.0246 s/op
+WorkloadWarmup   7: 1 op, 2026669600.00 ns, 2.0267 s/op
+WorkloadWarmup   8: 1 op, 2032640700.00 ns, 2.0326 s/op
+WorkloadWarmup   9: 1 op, 2040473200.00 ns, 2.0405 s/op
+WorkloadWarmup  10: 1 op, 2026225300.00 ns, 2.0262 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 2031289300.00 ns, 2.0313 s/op
+WorkloadActual   2: 1 op, 2028900300.00 ns, 2.0289 s/op
+WorkloadActual   3: 1 op, 2028349400.00 ns, 2.0283 s/op
+WorkloadActual   4: 1 op, 2036917900.00 ns, 2.0369 s/op
+WorkloadActual   5: 1 op, 2029353400.00 ns, 2.0294 s/op
+WorkloadActual   6: 1 op, 2031827800.00 ns, 2.0318 s/op
+WorkloadActual   7: 1 op, 2025438200.00 ns, 2.0254 s/op
+WorkloadActual   8: 1 op, 2026116600.00 ns, 2.0261 s/op
+WorkloadActual   9: 1 op, 2049351100.00 ns, 2.0494 s/op
+WorkloadActual  10: 1 op, 2120718900.00 ns, 2.1207 s/op
+WorkloadActual  11: 1 op, 2025817800.00 ns, 2.0258 s/op
+WorkloadActual  12: 1 op, 2026958000.00 ns, 2.0270 s/op
+WorkloadActual  13: 1 op, 2034008800.00 ns, 2.0340 s/op
+WorkloadActual  14: 1 op, 2035019500.00 ns, 2.0350 s/op
+WorkloadActual  15: 1 op, 2039948200.00 ns, 2.0399 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 2031289300.00 ns, 2.0313 s/op
+WorkloadResult   2: 1 op, 2028900300.00 ns, 2.0289 s/op
+WorkloadResult   3: 1 op, 2028349400.00 ns, 2.0283 s/op
+WorkloadResult   4: 1 op, 2036917900.00 ns, 2.0369 s/op
+WorkloadResult   5: 1 op, 2029353400.00 ns, 2.0294 s/op
+WorkloadResult   6: 1 op, 2031827800.00 ns, 2.0318 s/op
+WorkloadResult   7: 1 op, 2025438200.00 ns, 2.0254 s/op
+WorkloadResult   8: 1 op, 2026116600.00 ns, 2.0261 s/op
+WorkloadResult   9: 1 op, 2025817800.00 ns, 2.0258 s/op
+WorkloadResult  10: 1 op, 2026958000.00 ns, 2.0270 s/op
+WorkloadResult  11: 1 op, 2034008800.00 ns, 2.0340 s/op
+WorkloadResult  12: 1 op, 2035019500.00 ns, 2.0350 s/op
+WorkloadResult  13: 1 op, 2039948200.00 ns, 2.0399 s/op
+
+// AfterAll
+// Benchmark Process 1316 has exited with code 0
+
+Mean = 2.031 s, StdErr = 0.001 s (0.06%), N = 13, StdDev = 0.005 s
+Min = 2.025 s, Q1 = 2.027 s, Median = 2.029 s, Q3 = 2.034 s, Max = 2.040 s
+IQR = 0.007 s, LowerFence = 2.016 s, UpperFence = 2.045 s
+ConfidenceInterval = [2.025 s; 2.036 s] (CI 99.9%), Margin = 0.005 s (0.27% of Mean)
+Skewness = 0.53, Kurtosis = 1.93, MValue = 2
+
+// **************************
+// Benchmark: BechmarkClass.PointDistanceTect: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "143c9fda-264e-466e-85a9-2541291d7430.dll" --benchmarkName "Lesson3.BechmarkClass.PointDistanceTect" --job "Default" --benchmarkId 1 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430\bin\Release\netcoreapp5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 204600.00 ns, 204.6000 us/op
+WorkloadJitting  1: 1 op, 2073398700.00 ns, 2.0734 s/op
+
+WorkloadWarmup   1: 1 op, 2068929500.00 ns, 2.0689 s/op
+WorkloadWarmup   2: 1 op, 2071024100.00 ns, 2.0710 s/op
+WorkloadWarmup   3: 1 op, 2070675600.00 ns, 2.0707 s/op
+WorkloadWarmup   4: 1 op, 2068244300.00 ns, 2.0682 s/op
+WorkloadWarmup   5: 1 op, 2069308600.00 ns, 2.0693 s/op
+WorkloadWarmup   6: 1 op, 2066528800.00 ns, 2.0665 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 2068024200.00 ns, 2.0680 s/op
+WorkloadActual   2: 1 op, 2066483700.00 ns, 2.0665 s/op
+WorkloadActual   3: 1 op, 2063079900.00 ns, 2.0631 s/op
+WorkloadActual   4: 1 op, 2059448900.00 ns, 2.0594 s/op
+WorkloadActual   5: 1 op, 2060106700.00 ns, 2.0601 s/op
+WorkloadActual   6: 1 op, 2067044400.00 ns, 2.0670 s/op
+WorkloadActual   7: 1 op, 2063002800.00 ns, 2.0630 s/op
+WorkloadActual   8: 1 op, 2061019300.00 ns, 2.0610 s/op
+WorkloadActual   9: 1 op, 2072402900.00 ns, 2.0724 s/op
+WorkloadActual  10: 1 op, 2066609200.00 ns, 2.0666 s/op
+WorkloadActual  11: 1 op, 2065688300.00 ns, 2.0657 s/op
+WorkloadActual  12: 1 op, 2064855900.00 ns, 2.0649 s/op
+WorkloadActual  13: 1 op, 2065112700.00 ns, 2.0651 s/op
+WorkloadActual  14: 1 op, 2063018400.00 ns, 2.0630 s/op
+WorkloadActual  15: 1 op, 2072342400.00 ns, 2.0723 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 2068024200.00 ns, 2.0680 s/op
+WorkloadResult   2: 1 op, 2066483700.00 ns, 2.0665 s/op
+WorkloadResult   3: 1 op, 2063079900.00 ns, 2.0631 s/op
+WorkloadResult   4: 1 op, 2059448900.00 ns, 2.0594 s/op
+WorkloadResult   5: 1 op, 2060106700.00 ns, 2.0601 s/op
+WorkloadResult   6: 1 op, 2067044400.00 ns, 2.0670 s/op
+WorkloadResult   7: 1 op, 2063002800.00 ns, 2.0630 s/op
+WorkloadResult   8: 1 op, 2061019300.00 ns, 2.0610 s/op
+WorkloadResult   9: 1 op, 2072402900.00 ns, 2.0724 s/op
+WorkloadResult  10: 1 op, 2066609200.00 ns, 2.0666 s/op
+WorkloadResult  11: 1 op, 2065688300.00 ns, 2.0657 s/op
+WorkloadResult  12: 1 op, 2064855900.00 ns, 2.0649 s/op
+WorkloadResult  13: 1 op, 2065112700.00 ns, 2.0651 s/op
+WorkloadResult  14: 1 op, 2063018400.00 ns, 2.0630 s/op
+WorkloadResult  15: 1 op, 2072342400.00 ns, 2.0723 s/op
+
+// AfterAll
+// Benchmark Process 15236 has exited with code 0
+
+Mean = 2.065 s, StdErr = 0.001 s (0.05%), N = 15, StdDev = 0.004 s
+Min = 2.059 s, Q1 = 2.063 s, Median = 2.065 s, Q3 = 2.067 s, Max = 2.072 s
+IQR = 0.004 s, LowerFence = 2.057 s, UpperFence = 2.073 s
+ConfidenceInterval = [2.061 s; 2.069 s] (CI 99.9%), Margin = 0.004 s (0.20% of Mean)
+Skewness = 0.39, Kurtosis = 2.24, MValue = 2
+
+// **************************
+// Benchmark: BechmarkClass.PointDistanceDoubleTect: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "143c9fda-264e-466e-85a9-2541291d7430.dll" --benchmarkName "Lesson3.BechmarkClass.PointDistanceDoubleTect" --job "Default" --benchmarkId 2 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430\bin\Release\netcoreapp5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 201800.00 ns, 201.8000 us/op
+WorkloadJitting  1: 1 op, 2139458200.00 ns, 2.1395 s/op
+
+WorkloadWarmup   1: 1 op, 2133737600.00 ns, 2.1337 s/op
+WorkloadWarmup   2: 1 op, 2138083900.00 ns, 2.1381 s/op
+WorkloadWarmup   3: 1 op, 2136102600.00 ns, 2.1361 s/op
+WorkloadWarmup   4: 1 op, 2134648000.00 ns, 2.1346 s/op
+WorkloadWarmup   5: 1 op, 2136639600.00 ns, 2.1366 s/op
+WorkloadWarmup   6: 1 op, 2134629700.00 ns, 2.1346 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 2136567800.00 ns, 2.1366 s/op
+WorkloadActual   2: 1 op, 2146235700.00 ns, 2.1462 s/op
+WorkloadActual   3: 1 op, 2141545700.00 ns, 2.1415 s/op
+WorkloadActual   4: 1 op, 2144341600.00 ns, 2.1443 s/op
+WorkloadActual   5: 1 op, 2149067700.00 ns, 2.1491 s/op
+WorkloadActual   6: 1 op, 2145467600.00 ns, 2.1455 s/op
+WorkloadActual   7: 1 op, 2143327200.00 ns, 2.1433 s/op
+WorkloadActual   8: 1 op, 2135909100.00 ns, 2.1359 s/op
+WorkloadActual   9: 1 op, 2157289700.00 ns, 2.1573 s/op
+WorkloadActual  10: 1 op, 2145965500.00 ns, 2.1460 s/op
+WorkloadActual  11: 1 op, 2141333200.00 ns, 2.1413 s/op
+WorkloadActual  12: 1 op, 2145203200.00 ns, 2.1452 s/op
+WorkloadActual  13: 1 op, 2145291000.00 ns, 2.1453 s/op
+WorkloadActual  14: 1 op, 2147629000.00 ns, 2.1476 s/op
+WorkloadActual  15: 1 op, 2145715500.00 ns, 2.1457 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 2136567800.00 ns, 2.1366 s/op
+WorkloadResult   2: 1 op, 2146235700.00 ns, 2.1462 s/op
+WorkloadResult   3: 1 op, 2141545700.00 ns, 2.1415 s/op
+WorkloadResult   4: 1 op, 2144341600.00 ns, 2.1443 s/op
+WorkloadResult   5: 1 op, 2149067700.00 ns, 2.1491 s/op
+WorkloadResult   6: 1 op, 2145467600.00 ns, 2.1455 s/op
+WorkloadResult   7: 1 op, 2143327200.00 ns, 2.1433 s/op
+WorkloadResult   8: 1 op, 2135909100.00 ns, 2.1359 s/op
+WorkloadResult   9: 1 op, 2145965500.00 ns, 2.1460 s/op
+WorkloadResult  10: 1 op, 2141333200.00 ns, 2.1413 s/op
+WorkloadResult  11: 1 op, 2145203200.00 ns, 2.1452 s/op
+WorkloadResult  12: 1 op, 2145291000.00 ns, 2.1453 s/op
+WorkloadResult  13: 1 op, 2147629000.00 ns, 2.1476 s/op
+WorkloadResult  14: 1 op, 2145715500.00 ns, 2.1457 s/op
+
+// AfterAll
+// Benchmark Process 14936 has exited with code 0
+
+Mean = 2.144 s, StdErr = 0.001 s (0.05%), N = 14, StdDev = 0.004 s
+Min = 2.136 s, Q1 = 2.142 s, Median = 2.145 s, Q3 = 2.146 s, Max = 2.149 s
+IQR = 0.004 s, LowerFence = 2.136 s, UpperFence = 2.152 s
+ConfidenceInterval = [2.140 s; 2.148 s] (CI 99.9%), Margin = 0.004 s (0.20% of Mean)
+Skewness = -0.85, Kurtosis = 2.62, MValue = 2
+
+// **************************
+// Benchmark: BechmarkClass.PointDistanceShortTect: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "143c9fda-264e-466e-85a9-2541291d7430.dll" --benchmarkName "Lesson3.BechmarkClass.PointDistanceShortTect" --job "Default" --benchmarkId 3 in D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson3\bin\Release\net5.0\143c9fda-264e-466e-85a9-2541291d7430\bin\Release\netcoreapp5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 193500.00 ns, 193.5000 us/op
+WorkloadJitting  1: 1 op, 2145456900.00 ns, 2.1455 s/op
+
+WorkloadWarmup   1: 1 op, 2147842700.00 ns, 2.1478 s/op
+WorkloadWarmup   2: 1 op, 2140576000.00 ns, 2.1406 s/op
+WorkloadWarmup   3: 1 op, 2140053400.00 ns, 2.1401 s/op
+WorkloadWarmup   4: 1 op, 2142611600.00 ns, 2.1426 s/op
+WorkloadWarmup   5: 1 op, 2145831000.00 ns, 2.1458 s/op
+WorkloadWarmup   6: 1 op, 2147116100.00 ns, 2.1471 s/op
+WorkloadWarmup   7: 1 op, 2144876900.00 ns, 2.1449 s/op
+WorkloadWarmup   8: 1 op, 2142723700.00 ns, 2.1427 s/op
+WorkloadWarmup   9: 1 op, 2140375300.00 ns, 2.1404 s/op
+WorkloadWarmup  10: 1 op, 2136631000.00 ns, 2.1366 s/op
+WorkloadWarmup  11: 1 op, 2140141100.00 ns, 2.1401 s/op
+WorkloadWarmup  12: 1 op, 2136603700.00 ns, 2.1366 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 2156846000.00 ns, 2.1568 s/op
+WorkloadActual   2: 1 op, 2155109400.00 ns, 2.1551 s/op
+WorkloadActual   3: 1 op, 2153088100.00 ns, 2.1531 s/op
+WorkloadActual   4: 1 op, 2146792000.00 ns, 2.1468 s/op
+WorkloadActual   5: 1 op, 2151675400.00 ns, 2.1517 s/op
+WorkloadActual   6: 1 op, 2153059900.00 ns, 2.1531 s/op
+WorkloadActual   7: 1 op, 2166363500.00 ns, 2.1664 s/op
+WorkloadActual   8: 1 op, 2156837100.00 ns, 2.1568 s/op
+WorkloadActual   9: 1 op, 2149166200.00 ns, 2.1492 s/op
+WorkloadActual  10: 1 op, 2153057000.00 ns, 2.1531 s/op
+WorkloadActual  11: 1 op, 2151851100.00 ns, 2.1519 s/op
+WorkloadActual  12: 1 op, 2147311400.00 ns, 2.1473 s/op
+WorkloadActual  13: 1 op, 2158517700.00 ns, 2.1585 s/op
+WorkloadActual  14: 1 op, 2157710500.00 ns, 2.1577 s/op
+WorkloadActual  15: 1 op, 2161175300.00 ns, 2.1612 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 2156846000.00 ns, 2.1568 s/op
+WorkloadResult   2: 1 op, 2155109400.00 ns, 2.1551 s/op
+WorkloadResult   3: 1 op, 2153088100.00 ns, 2.1531 s/op
+WorkloadResult   4: 1 op, 2146792000.00 ns, 2.1468 s/op
+WorkloadResult   5: 1 op, 2151675400.00 ns, 2.1517 s/op
+WorkloadResult   6: 1 op, 2153059900.00 ns, 2.1531 s/op
+WorkloadResult   7: 1 op, 2156837100.00 ns, 2.1568 s/op
+WorkloadResult   8: 1 op, 2149166200.00 ns, 2.1492 s/op
+WorkloadResult   9: 1 op, 2153057000.00 ns, 2.1531 s/op
+WorkloadResult  10: 1 op, 2151851100.00 ns, 2.1519 s/op
+WorkloadResult  11: 1 op, 2147311400.00 ns, 2.1473 s/op
+WorkloadResult  12: 1 op, 2158517700.00 ns, 2.1585 s/op
+WorkloadResult  13: 1 op, 2157710500.00 ns, 2.1577 s/op
+WorkloadResult  14: 1 op, 2161175300.00 ns, 2.1612 s/op
+
+// AfterAll
+// Benchmark Process 3096 has exited with code 0
+
+Mean = 2.154 s, StdErr = 0.001 s (0.05%), N = 14, StdDev = 0.004 s
+Min = 2.147 s, Q1 = 2.152 s, Median = 2.153 s, Q3 = 2.157 s, Max = 2.161 s
+IQR = 0.005 s, LowerFence = 2.144 s, UpperFence = 2.165 s
+ConfidenceInterval = [2.149 s; 2.159 s] (CI 99.9%), Margin = 0.005 s (0.22% of Mean)
+Skewness = -0.06, Kurtosis = 1.87, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Lesson3.BechmarkClass-report.csv
+  BenchmarkDotNet.Artifacts\results\Lesson3.BechmarkClass-report-github.md
+  BenchmarkDotNet.Artifacts\results\Lesson3.BechmarkClass-report.html
+
+// * Detailed results *
+BechmarkClass.TestPointDistanceClass: DefaultJob
+Runtime = .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 2.031 s, StdErr = 0.001 s (0.06%), N = 13, StdDev = 0.005 s
+Min = 2.025 s, Q1 = 2.027 s, Median = 2.029 s, Q3 = 2.034 s, Max = 2.040 s
+IQR = 0.007 s, LowerFence = 2.016 s, UpperFence = 2.045 s
+ConfidenceInterval = [2.025 s; 2.036 s] (CI 99.9%), Margin = 0.005 s (0.27% of Mean)
+Skewness = 0.53, Kurtosis = 1.93, MValue = 2
+-------------------- Histogram --------------------
+[2.023 s ; 2.043 s) | @@@@@@@@@@@@@
+---------------------------------------------------
+
+BechmarkClass.PointDistanceTect: DefaultJob
+Runtime = .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 2.065 s, StdErr = 0.001 s (0.05%), N = 15, StdDev = 0.004 s
+Min = 2.059 s, Q1 = 2.063 s, Median = 2.065 s, Q3 = 2.067 s, Max = 2.072 s
+IQR = 0.004 s, LowerFence = 2.057 s, UpperFence = 2.073 s
+ConfidenceInterval = [2.061 s; 2.069 s] (CI 99.9%), Margin = 0.004 s (0.20% of Mean)
+Skewness = 0.39, Kurtosis = 2.24, MValue = 2
+-------------------- Histogram --------------------
+[2.057 s ; 2.074 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+BechmarkClass.PointDistanceDoubleTect: DefaultJob
+Runtime = .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 2.144 s, StdErr = 0.001 s (0.05%), N = 14, StdDev = 0.004 s
+Min = 2.136 s, Q1 = 2.142 s, Median = 2.145 s, Q3 = 2.146 s, Max = 2.149 s
+IQR = 0.004 s, LowerFence = 2.136 s, UpperFence = 2.152 s
+ConfidenceInterval = [2.140 s; 2.148 s] (CI 99.9%), Margin = 0.004 s (0.20% of Mean)
+Skewness = -0.85, Kurtosis = 2.62, MValue = 2
+-------------------- Histogram --------------------
+[2.134 s ; 2.151 s) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+BechmarkClass.PointDistanceShortTect: DefaultJob
+Runtime = .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 2.154 s, StdErr = 0.001 s (0.05%), N = 14, StdDev = 0.004 s
+Min = 2.147 s, Q1 = 2.152 s, Median = 2.153 s, Q3 = 2.157 s, Max = 2.161 s
+IQR = 0.005 s, LowerFence = 2.144 s, UpperFence = 2.165 s
+ConfidenceInterval = [2.149 s; 2.159 s] (CI 99.9%), Margin = 0.005 s (0.22% of Mean)
+Skewness = -0.06, Kurtosis = 1.87, MValue = 2
+-------------------- Histogram --------------------
+[2.144 s ; 2.163 s) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19041.928 (2004/?/20H1)
+AMD Ryzen 5 3600, 1 CPU, 12 logical and 6 physical cores
+.NET Core SDK=5.0.202
+  [Host]     : .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET Core 5.0.5 (CoreCLR 5.0.521.16609, CoreFX 5.0.521.16609), X64 RyuJIT
+
+
+|                  Method |    Mean |    Error |   StdDev |
+|------------------------ |--------:|---------:|---------:|
+|  TestPointDistanceClass | 2.031 s | 0.0055 s | 0.0046 s |
+|       PointDistanceTect | 2.065 s | 0.0041 s | 0.0039 s |
+| PointDistanceDoubleTect | 2.144 s | 0.0043 s | 0.0038 s |
+|  PointDistanceShortTect | 2.154 s | 0.0048 s | 0.0042 s |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Hints *
+Outliers
+  BechmarkClass.TestPointDistanceClass: Default  -> 2 outliers were removed (2.05 s, 2.12 s)
+  BechmarkClass.PointDistanceDoubleTect: Default -> 1 outlier  was  removed, 3 outliers were detected (2.14 s, 2.14 s, 2.16 s)
+  BechmarkClass.PointDistanceShortTect: Default  -> 1 outlier  was  removed (2.17 s)
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 s    : 1 Second (1 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:03:27 (207.13 sec), executed benchmarks: 4
+
+Global total time: 00:03:30 (210.84 sec), executed benchmarks: 4
+// * Artifacts cleanup *

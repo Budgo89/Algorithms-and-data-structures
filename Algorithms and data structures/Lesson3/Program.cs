@@ -25,28 +25,29 @@ namespace Lesson3
     public class BechmarkClass
     {
         public static Random rand = new Random();
-        public static int[] pointOneMass = new int[] { rand.Next(0, 100), rand.Next(0, 100), };
-        public static int[] pointTwoMass = new int[] { rand.Next(0, 100), rand.Next(0, 100), };
-        public PointClass pointOne = new PointClass
+        //public int[] pointOneMass;
+        public static int[] pointOneMass = new int[10000];// { rand.Next(0, 100), rand.Next(0, 100), };
+        public static int[] pointTwoMass = new int[10000];// { rand.Next(0, 100), rand.Next(0, 100), };
+        PointClass pointOne = new PointClass { };
+        PointClass pointTwo = new PointClass { };
+        PointStruct pointOneStruct = new PointStruct { };
+        PointStruct pointTwoStruct = new PointStruct { };
+        public int[] forPointOneMas()
+		{
+            for (int i = 0; i < pointOneMass.Length; i++)
+            {
+                pointOneMass[i] = rand.Next(0, 1000);
+            }
+            return pointOneMass;
+        }
+        public int[] forPointTwoMas()
         {
-            X = pointOneMass[0],
-            Y = pointOneMass[1]
-        };
-        public PointClass pointTwo = new PointClass
-        {
-            X = pointTwoMass[0],
-            Y = pointTwoMass[1]
-        };
-        public PointStruct pointOneStruct = new PointStruct
-        {
-            X = pointOneMass[0],
-            Y = pointOneMass[1]
-        };
-        public PointStruct pointTwoStruct = new PointStruct
-        {
-            X = pointTwoMass[0],
-            Y = pointTwoMass[1]
-        };
+            for (int i = 0; i < pointOneMass.Length; i++)
+            {               
+                pointTwoMass[i] = rand.Next(0, 1000);
+            }
+            return pointOneMass;
+        }
         public static float PointDistanceClass(PointClass pointOne, PointClass pointTwo)
         {
             float x = pointOne.X - pointTwo.X;
@@ -74,25 +75,70 @@ namespace Lesson3
             float y = pointOne.Y - pointTwo.Y;
             return (x * x) + (y * y);
         }
+        
+
         [Benchmark]
         public void TestPointDistanceClass()
         {
-            PointDistanceClass(pointOne, pointTwo);
+            pointOneMass = forPointOneMas();
+            pointTwoMass = forPointTwoMas();
+            for (int i = 0; i < pointOneMass.Length - 1; i++)
+            {
+
+                pointOne.X = pointOneMass[i];
+                pointOne.Y = pointOneMass[i + 1];
+                pointTwo.X = pointTwoMass[i];
+                pointTwo.Y = pointTwoMass[i + 1];
+                PointDistanceClass(pointOne, pointTwo);
+            }
+
         }
+
         [Benchmark]
         public void PointDistanceTect()
         {
-            PointDistanceStruct(pointOneStruct, pointTwoStruct);
+            pointOneMass = forPointOneMas();
+            pointTwoMass = forPointTwoMas();
+            for (int i = 0; i < pointOneMass.Length - 1; i++)
+            {
+
+                pointOneStruct.X = pointOneMass[i];
+                pointOneStruct.Y = pointOneMass[i + 1];
+                pointTwoStruct.X = pointTwoMass[i];
+                pointTwoStruct.Y = pointTwoMass[i + 1];
+                PointDistanceStruct(pointOneStruct, pointTwoStruct);
+            }
+
         }
         [Benchmark]
         public void PointDistanceDoubleTect()
         {
-            PointDistanceDouble(pointOneStruct, pointTwoStruct);
+            pointOneMass = forPointOneMas();
+            pointTwoMass = forPointTwoMas();
+            for (int i = 0; i < pointOneMass.Length - 1; i++)
+            {
+
+                pointOneStruct.X = pointOneMass[i];
+                pointOneStruct.Y = pointOneMass[i + 1];
+                pointTwoStruct.X = pointTwoMass[i];
+                pointTwoStruct.Y = pointTwoMass[i + 1];
+                PointDistanceDouble(pointOneStruct, pointTwoStruct);
+            }
         }
         [Benchmark]
         public void PointDistanceShortTect()
         {
-            PointDistanceShort(pointOneStruct, pointTwoStruct);
+            pointOneMass = forPointOneMas();
+            pointTwoMass = forPointTwoMas();
+            for (int i = 0; i < pointOneMass.Length - 1; i++)
+            {
+
+                pointOneStruct.X = pointOneMass[i];
+                pointOneStruct.Y = pointOneMass[i + 1];
+                pointTwoStruct.X = pointTwoMass[i];
+                pointTwoStruct.Y = pointTwoMass[i + 1];
+                PointDistanceShort(pointOneStruct, pointTwoStruct);
+            }
         }
     }
 }
