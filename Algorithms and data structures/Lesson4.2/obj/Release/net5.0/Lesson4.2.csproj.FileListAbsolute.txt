@@ -1,0 +1,16 @@
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.exe
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.deps.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.runtimeconfig.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.runtimeconfig.dev.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\ref\Lesson4.2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\bin\Release\net5.0\Lesson4.2.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.csprojAssemblyReference.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.AssemblyInfoInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.AssemblyInfo.cs
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.csproj.CoreCompileInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\ref\Lesson4.2.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson4.2\obj\Release\net5.0\Lesson4.2.genruntimeconfig.cache
