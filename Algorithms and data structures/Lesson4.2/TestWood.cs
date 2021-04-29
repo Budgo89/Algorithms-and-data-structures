@@ -64,7 +64,6 @@ namespace Lesson4._2
                 {
                     throw new Exception("Wrong tree state");                  // Дерево построено неправильно
                 }
-
             }
         }
 
@@ -111,8 +110,6 @@ namespace Lesson4._2
                 return GetNodeByValue(value, treeNode.LeftChild);
             }
             else return GetNodeByValue(value, treeNode.RightChild);
-
-
         }
 
         public TreeNode GetRoot()
@@ -210,6 +207,68 @@ namespace Lesson4._2
             return returnArray.ToArray();
         }
 
+        public TreeNode BFS(int x)
+        {
+            var bufer = new Queue<TreeNode>();
+            bufer.Enqueue(_node);
+            Console.WriteLine($"Добавляем корень {_node.Value} в очередь");
+            while (bufer.Count != 0)
+            {
+                var root = bufer.Dequeue();
+                Console.WriteLine($"Вытягиваем ноду {root.Value} из начала очереди и удаляемиз списка");
+                if (root != null)
+                {
+                    Console.WriteLine($"Сравниваем с {x}");
+                    if (root.Value == x)
+                        return root;
+                    Console.WriteLine($"Удаляем ноду {root.Value} из стэка");
+                    if (root.LeftChild != null)
+                    {
+                        Console.WriteLine($"Добавляем в стек левую ноду {root.LeftChild.Value}");
+                        bufer.Enqueue(root.LeftChild);
+                    }
+                    if (root.RightChild != null)
+                    {
+                        bufer.Enqueue(root.RightChild);
+                        Console.WriteLine($"Добавляем в стек правого ноду {root.RightChild.Value}");
+                    }
+                }
+            }
+            Console.Write("Элемент не найдев, возвращаю корень: ");
+            return _node;
+        }
 
+        public TreeNode DFS(int x)
+        {
+            var stek = new List<TreeNode>();       
+            stek.Add(_node);    
+            
+            Console.WriteLine($"Добавляем корень {_node.Value} в стэк");
+            while (stek.Count != 0)
+            {
+                var root = stek.Last();
+                Console.WriteLine($"Вытягиваем ноду {root.Value}");
+                if (root != null)
+                {
+                    Console.WriteLine($"Сравниваем с {x}");
+                    if (root.Value == x)
+                        return root;
+                    stek.Remove(root);
+                    Console.WriteLine($"Удаляем ноду {root.Value} из стэка");
+                    if (root.RightChild != null)
+                    {
+                        stek.Add(root.RightChild);
+                        Console.WriteLine($"Добавляем в стек правого ноду {root.RightChild.Value}");
+                    }                        
+                    if (root.LeftChild != null)
+                    {
+                        Console.WriteLine($"Добавляем в стек левую ноду {root.LeftChild.Value}");
+                        stek.Add(root.LeftChild);
+                    }                        
+                }            
+            }
+            Console.Write("Элемент не найдев, возвращаю корень: ");
+            return _node;
+        }
     }
 }

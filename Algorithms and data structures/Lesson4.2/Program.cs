@@ -89,6 +89,60 @@ namespace Lesson4._2
                 Console.WriteLine("INVALID TEST");
             }
         }
+        static void TestBFS(TestCase testCase)
+        {
+            try
+            {
+                
+                if (testCase.treeNode.BFS(testCase.X).Value == testCase.searchValueInt)
+                {
+                    Console.WriteLine("VALID TEST");
+                }
+                else
+                {
+                    Console.WriteLine("INVALID TEST");
+                }
+            }
+            catch (Exception)
+            {
+
+                if (testCase.ExpectedException != null)
+                {
+                    Console.WriteLine("VALID TEST");
+                }
+                else
+                {
+                    Console.WriteLine("INVALID TEST");
+                }
+            }
+        }
+        static void TestDFS(TestCase testCase)
+        {
+            try
+            {
+
+                if (testCase.treeNode.DFS(testCase.X).Value == testCase.searchValueInt)
+                {
+                    Console.WriteLine("VALID TEST");
+                }
+                else
+                {
+                    Console.WriteLine("INVALID TEST");
+                }
+            }
+            catch (Exception)
+            {
+
+                if (testCase.ExpectedException != null)
+                {
+                    Console.WriteLine("VALID TEST");
+                }
+                else
+                {
+                    Console.WriteLine("INVALID TEST");
+                }
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -148,25 +202,51 @@ namespace Lesson4._2
             };
             TestAddItem(testCase6);
             wood.PrintTree();
-            int[] intArray7 = new int[] { 6, 3, 11, 9, 30 };
-            var testCase7 = new TestCase()
-            {
-                treeNode = wood,
-                X = 2,
-                searchValue = intArray7,
-                ExpectedException = null
-            };
+            //int[] intArray7 = new int[] { 6, 3, 11, 9, 30 };
+            //var testCase7 = new TestCase()
+            //{
+            //    treeNode = wood,
+            //    X = 2,
+            //    searchValue = intArray7,
+            //    ExpectedException = null
+            //};
+            //Console.WriteLine();
+            //TestRemoveItem(testCase7);
+            //int[] intArray8 = new int[] { 6, 3, 30, 9 };
+            //var testCase8 = new TestCase()
+            //{
+            //    treeNode = wood,
+            //    X = 11,
+            //    searchValue = intArray8,
+            //    ExpectedException = null
+            //};
+            //TestRemoveItem(testCase8);
             Console.WriteLine();
-            TestRemoveItem(testCase7);
-            int[] intArray8 = new int[] { 6, 3, 30, 9 };
-            var testCase8 = new TestCase()
+
+            var tesrCase9 = new TestCase()
             {
                 treeNode = wood,
-                X = 11,
-                searchValue = intArray8,
+                X = 30,
+                searchValueInt = 30,
                 ExpectedException = null
             };
-            TestRemoveItem(testCase8);
+            TestBFS(tesrCase9);
+            var tesrCase10 = new TestCase()
+            {
+                treeNode = wood,
+                X = 3,
+                searchValueInt = 3,
+                ExpectedException = null
+            };
+            TestDFS(tesrCase10);
+            var tesrCase11 = new TestCase()
+            {
+                treeNode = wood,
+                X = 31,
+                searchValueInt = 31,
+                ExpectedException = null
+            };
+            TestDFS(tesrCase11);
         }
     }
    
