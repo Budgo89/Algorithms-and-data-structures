@@ -18,7 +18,7 @@ namespace Lesson_6
             public Node BFSGraph(int x, Node _node)
             {
                 var bufer = new Queue<Node>();
-                var knot = new Queue<Node>();
+                var knot = new List<Node>();
                 bufer.Enqueue(_node);
                 Console.WriteLine($"Добавляем стартовую ноду {_node.Value} в очередь");
                 while (bufer.Count != 0)
@@ -32,7 +32,7 @@ namespace Lesson_6
                         if (root.Value == x)
                             return root;
                         Console.WriteLine($"Удаляем ноду {root.Value} из стэка");
-                        knot.Enqueue(root);
+                        knot.Add(root);
                         Console.WriteLine($"Отмечаем ноду {root.Value} как проверенную");
                         for (int i = 0; i < root.Edges.Count; i++)
                         {
@@ -42,9 +42,12 @@ namespace Lesson_6
                         }
                         if (bufer.Count != 0 && knot.Count != 0)
                         {
-                            while (bufer.Peek() == knot.Peek())
+                            for (int i = 0; i < knot.Count; i++)
                             {
-                                bufer.Dequeue();
+                                if (bufer.Peek() == knot[i])
+                                {
+                                    bufer.Dequeue();
+                                }
                             }
                             Console.WriteLine("Удаляем проверенные элементы из буфера");
                         }
@@ -58,7 +61,7 @@ namespace Lesson_6
             {
 
                 var stek = new Stack<Node>();
-                var knot = new Queue<Node>();
+                var knot = new List<Node>();
                 stek.Push(_node);
                 Console.WriteLine($"Добавляем стартовую ноду {_node.Value} в стэк");
                 while (stek.Count != 0)
@@ -70,7 +73,7 @@ namespace Lesson_6
                         Console.WriteLine($"Сравниваем с {x}");
                         if (root.Value == x)
                             return root;
-                        knot.Enqueue(root);
+                        knot.Add(root);
                         Console.WriteLine($"Отмечаем ноду {root.Value} как проверенную");
                         for (int i = root.Edges.Count - 1; i >= 0; i--)
                         {
@@ -80,9 +83,12 @@ namespace Lesson_6
                         }
                         if (stek.Count != 0 && knot.Count != 0)
                         {
-                            while (stek.Peek() == knot.Peek())
+                            for (int i = 0; i < knot.Count; i++)
                             {
-                                stek.Pop();
+                                if (stek.Peek() == knot[i])
+                                {
+                                    stek.Pop();
+                                }
                             }
                             Console.WriteLine("Удаляем проверенные элементы из стека");
                         }
