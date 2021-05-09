@@ -1,0 +1,16 @@
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.exe
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.deps.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.runtimeconfig.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.runtimeconfig.dev.json
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\ref\Lesson_7.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\bin\Debug\net5.0\Lesson_7.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.AssemblyInfoInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.AssemblyInfo.cs
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.csproj.CoreCompileInputs.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\ref\Lesson_7.dll
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.pdb
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.genruntimeconfig.cache
+D:\Програмирование\C#\Алгоритмы и структуры данных\Algorithms and data structures\Lesson_7\obj\Debug\net5.0\Lesson_7.csprojAssemblyReference.cache
